@@ -1,0 +1,27 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "amazon",
+            "connectString": "postgres://tdpjqjux:2pWpBzDTL3YTKMSFJMuTa6BsoGHEvrS8@batyr.db.elephantsql.com/tdpjqjux"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "theater_homework",
+            "connectString": "postgres://tdpjqjux:2pWpBzDTL3YTKMSFJMuTa6BsoGHEvrS8@batyr.db.elephantsql.com/tdpjqjux"
+        }
+    ]
+}
